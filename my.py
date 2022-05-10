@@ -4,6 +4,7 @@ import numpy as np
 def print_hello(name='World'):
     st.write(f"## Hello, {name}")
 print_hello()
+print('asdfasdf')
 
 df=pd.DataFrame(dict(x=[1,2,3,4], y=[4,3,2,1]))
 st.line_chart(df)
